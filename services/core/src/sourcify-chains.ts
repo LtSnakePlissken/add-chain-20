@@ -346,5 +346,12 @@ export default {
         "supported": true,
         "monitored": false,
         "contractFetchAddress": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer/" + ETHERSCAN_SUFFIX,
+        ]
+    },
+    "20": { // WAGMI Testnet
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://eth.elastos.io" + BLOCKSCOUT_SUFFIX,
+        "txRegex": getBlockscoutRegex()
     },
 }
